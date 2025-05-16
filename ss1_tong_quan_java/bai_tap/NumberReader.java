@@ -52,7 +52,7 @@ public class NumberReader {
             default: return "";
         }
     }
-    
+
     public static String readTeen(int n) {
         switch (n) {
             case 10: return "ten";
