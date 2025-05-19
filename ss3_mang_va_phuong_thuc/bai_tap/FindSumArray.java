@@ -1,8 +1,8 @@
-package ss3_mang_va_phuong_thuc.thuc_hanh;
+package ss3_mang_va_phuong_thuc.bai_tap;
 
 import java.util.Scanner;
 
-public class FindSumColumn {
+public class FindSumArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -18,12 +18,14 @@ public class FindSumColumn {
                 arr[i][j] = input.nextInt();
             }
         }
-        System.out.println("Nhập cột cần tính: ");
-        int cot = input.nextInt();
         int sum = 0;
         for (int i = 0; i < row; i++) {
-            sum += arr[i][cot-1];
+            for (int j = 0; j < col; j++) {
+                if (i ==j) {
+                    sum += arr[i][j];
+                }
+            }
         }
-        System.out.println("Tổng của cột " + (cot) + " là: " + sum);
+        System.out.println("Tổng đường chéo chính là: " + sum);
     }
 }

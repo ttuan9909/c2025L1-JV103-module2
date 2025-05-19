@@ -1,4 +1,4 @@
-package ss3_mang_va_phuong_thuc.thuc_hanh;
+package ss3_mang_va_phuong_thuc.bai_tap;
 
 import java.util.Scanner;
 
