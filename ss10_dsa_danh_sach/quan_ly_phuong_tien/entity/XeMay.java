@@ -22,6 +22,10 @@ public class XeMay extends Xe{
     @Override
     public String toString() {
         return "XeMay{" +
+                "biển kiểm soát='" + getBienKiemSoat() + '\'' +
+                ", tên hãng sản xuất='" + getTenHangSanXuat() + '\'' +
+                ", năm sản xuất=" + getNamSanXuat() +
+                ", chủ sở hữu='" + getChuSoHuu() + '\'' +
                 "trongTai=" + trongTai +
                 '}';
     }

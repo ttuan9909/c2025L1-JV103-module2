@@ -37,6 +37,10 @@ public class OTo extends Xe{
     @Override
     public String toString() {
         return "OTo{" +
+                "biển kiểm soát='" + getBienKiemSoat() + '\'' +
+                ", tên hãng sản xuất='" + getTenHangSanXuat() + '\'' +
+                ", năm sản xuất=" + getNamSanXuat() +
+                ", chủ sở hữu='" + getChuSoHuu() + '\'' +
                 "soChoNgoi=" + soChoNgoi +
                 ", kieuXe='" + kieuXe + '\'' +
                 '}';
